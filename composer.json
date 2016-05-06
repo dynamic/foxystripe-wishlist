@@ -1,0 +1,24 @@
+{
+  "name": "dynamic/foxystripe-wishlist",
+  "description": "FoxyStripe Wishlist enables members to create lists of products to share.",
+  "keywords": ["silverstripe", "foxycart", "foxystripe", "wishlist", "dynamic", "ecommerce"],
+  "type": "silverstripe-module",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Dynamic Inc",
+      "email": "dev@dynamicagency.com"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "^3.1",
+    "silverstripe/cms": "^3.1",
+    "dynamic/foxystripe": "^1.1",
+    "silverstripe/timepickerfield": "^1.0"
+  },
+  "suggest": {
+  },
+  "extra": {
+    "installer-name": "foxystripe-wishlist"
+  }
+}
